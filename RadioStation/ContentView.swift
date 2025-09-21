@@ -45,6 +45,7 @@ final class RadioPlayer: ObservableObject {
 
 struct ContentView: View {
     @StateObject private var player = RadioPlayer()
+   
     @State private var selected: RadioStation? = stations.first
 
     var body: some View {
@@ -70,6 +71,8 @@ struct ContentView: View {
                         player.pause()
                     } else {
                         player.play(station: st)
+                        print("test")
+                        print("")
                     }
                 }
             }
@@ -81,6 +84,7 @@ struct ContentView: View {
                 player.play(station: st)
             }
         }
+        
     }
 }
 
