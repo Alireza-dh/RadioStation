@@ -71,8 +71,7 @@ struct ContentView: View {
                         player.pause()
                     } else {
                         player.play(station: st)
-                        print("test")
-                        print("")
+                      
                     }
                 }
             }
