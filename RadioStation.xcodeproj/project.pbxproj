@@ -15,16 +15,28 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				README.md,
 			);
 			target = BB529E0B2E7FF01200C711C2 /* RadioStation */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		BB373A712E81A6C000CA42AD /* Exceptions for "RadioStation" folder in "Compile Sources" phase from "RadioStation" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = BB529E082E7FF01200C711C2 /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BB529E0E2E7FF01200C711C2 /* RadioStation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				BB373A452E81974B00CA42AD /* Exceptions for "RadioStation" folder in "RadioStation" target */,
+				BB373A712E81A6C000CA42AD /* Exceptions for "RadioStation" folder in "Compile Sources" phase from "RadioStation" target */,
 			);
 			path = RadioStation;
 			sourceTree = "<group>";
